@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <label for="addTodo">Add a Todo</label>
+            <input type="text" class="addTodo" id="addTodo">
+            <button class="btn addBtn" id="btn">+</button>
+        </div>
+        <div class="row">
+            <h2>To Do List</h2>
+            <select name="list" id="list">
+                <option value="todos">Todo</option>
+                <option value="done">Done</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <ul id="todos">
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
